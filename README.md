@@ -1,0 +1,2 @@
+# gournal
+note everyday
