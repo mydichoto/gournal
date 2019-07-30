@@ -1,0 +1,5 @@
+scan 23 kinds Design Pattern
+
+create
+mix
+responsibility
