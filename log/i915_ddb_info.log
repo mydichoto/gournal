@@ -1,0 +1,15 @@
+                  Start     End    Size
+Pipe A
+  Plane1              0      53      53
+  Plane2             53     106      53
+  Plane3            107     160      53
+  Cursor            161     169       8
+Pipe B
+  Plane1            169     222      53
+  Plane2            222     275      53
+  Plane3            276     329      53
+  Cursor            330     338       8
+Pipe C
+  Plane1            338     418      80
+  Plane2            418     498      80
+  Cursor            499     507       8

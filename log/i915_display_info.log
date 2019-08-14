@@ -1,0 +1,60 @@
+
+#cat /sys/kernel/debug/dri/0/i915_display_info
+
+CRTC info
+---------
+CRTC 34: pipe: A, active=yes, (size=1280x720), dither=no, bpp=24
+	fb: 84, pos: 0x0, size: 1920x720
+	encoder 71: type: DSI A, connectors:
+		connector 72: type: DSI-1, status: connected, mode:
+		id 0:"1280x720" freq 60 clock 67960 hdisp 1280 hss 1284 hse 1288 htot 1416 vdisp 720 vss 752 vse 768 vtot 800 type 0x8 flags 0xa
+	No cursor plane available on this platform
+	num_scalers=2, scaler_users=0 scaler_id=-1, scalers[0]: use=no, mode=0, scalers[1]: use=no, mode=0
+	--Plane id 29: type=PRI, crtc_pos=   0x   0, crtc_size=1280x 720, src_pos=0.0000x0.0000, src_size=1280.0000x720.0000, format=XR24 little-endian (0x34325258), rotation=0 (0x00000001)
+	underrun reporting: cpu=yes pch=yes 
+CRTC 50: pipe: B, active=yes, (size=1920x720), dither=no, bpp=24
+	fb: 90, pos: 0x0, size: 1920x720
+	encoder 57: type: DDI B, connectors:
+		connector 58: type: HDMI-A-1, status: connected, mode:
+		id 0:"1920x720" freq 60 clock 111720 hdisp 1920 hss 2008 hse 2208 htot 2496 vdisp 720 vss 721 vse 724 vtot 746 type 0x48 flags 0x5
+	No cursor plane available on this platform
+	num_scalers=2, scaler_users=0 scaler_id=-1, scalers[0]: use=no, mode=0, scalers[1]: use=no, mode=0
+	--Plane id 35: type=PRI, crtc_pos=   0x   0, crtc_size=1920x 720, src_pos=0.0000x0.0000, src_size=1920.0000x720.0000, format=XR24 little-endian (0x34325258), rotation=0 (0x00000001)
+	--Plane id 40: type=OVL, crtc_pos=   0x   0, crtc_size=   0x   0, src_pos=0.0000x0.0000, src_size=0.0000x0.0000, format=N/A, rotation=0 (0x00000001)
+	--Plane id 45: type=OVL, crtc_pos=   0x   0, crtc_size=   0x   0, src_pos=0.0000x0.0000, src_size=0.0000x0.0000, format=N/A, rotation=0 (0x00000001)
+	underrun reporting: cpu=yes pch=yes 
+CRTC 56: pipe: C, active=yes, (size=1920x720), dither=no, bpp=24
+	fb: 84, pos: 0x0, size: 1920x720
+	encoder 66: type: DDI C, connectors:
+		connector 67: type: HDMI-A-2, status: connected, mode:
+		id 0:"1920x720" freq 60 clock 111720 hdisp 1920 hss 2008 hse 2208 htot 2496 vdisp 720 vss 721 vse 724 vtot 746 type 0x48 flags 0x5
+	No cursor plane available on this platform
+	num_scalers=1, scaler_users=0 scaler_id=-1, scalers[0]: use=no, mode=0
+	--Plane id 51: type=PRI, crtc_pos=   0x   0, crtc_size=1920x 720, src_pos=0.0000x0.0000, src_size=1920.0000x720.0000, format=XR24 little-endian (0x34325258), rotation=0 (0x00000001)
+	underrun reporting: cpu=yes pch=yes 
+
+Connector info
+--------------
+connector 72: type DSI-1, status: connected
+	name: 
+	physical dimensions: 1416x800mm
+	subpixel order: Horizontal RGB
+	CEA rev: 0
+	modes:
+		id 73:"1280x720" freq 60 clock 67960 hdisp 1280 hss 1284 hse 1288 htot 1416 vdisp 720 vss 752 vse 768 vtot 800 type 0x8 flags 0xa
+connector 58: type HDMI-A-1, status: connected
+	name: 
+	physical dimensions: 160x90mm
+	subpixel order: Unknown
+	CEA rev: 3
+	audio support: no
+	modes:
+		id 78:"1920x720" freq 60 clock 111720 hdisp 1920 hss 2008 hse 2208 htot 2496 vdisp 720 vss 721 vse 724 vtot 746 type 0x48 flags 0x5
+connector 67: type HDMI-A-2, status: connected
+	name: 
+	physical dimensions: 160x90mm
+	subpixel order: Unknown
+	CEA rev: 3
+	audio support: no
+	modes:
+		id 80:"1920x720" freq 60 clock 111720 hdisp 1920 hss 2008 hse 2208 htot 2496 vdisp 720 vss 721 vse 724 vtot 746 type 0x48 flags 0x5
