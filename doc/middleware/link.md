@@ -16,3 +16,8 @@ https://gstreamer.freedesktop.org/
 
 demo:
 gst-launch-1.0 udpsrc port=3000 ! application/x-rtp,clock-rate=90000,payload=96,media=video,encoding-name=H264 ! rtph264depay ! h264parse ! msdkh264dec async-depth=1 output-order=1 ! msdkvpp ! glimagesink sync=false
+
+
+## ALSA: Advanced Linux Sound Architecture.
+
+https://alsa-project.org/wiki/Main_Page
