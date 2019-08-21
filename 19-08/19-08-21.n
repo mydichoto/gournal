@@ -1,0 +1,24 @@
+# WMI in the ACPI DSDT
+
+Windows Management Instrumentation (WMI) is a complex set of proprietary extensions
+to the Windows Driver Model that provides an OS interface to allow
+instrumented components to provide information and notifications.
+
+Typically we are interested in WMI if a laptop or netbook has implemented hotkey events using WMI.
+In this case, we need to write a driver or extend an existing driver
+to capture the appropriate WMI events and map these onto key events.
+
+One can find WMI encoded data blocks inside the _WDG buffer in the DSDT.
+To extract this from a machine use: 
+
+-----------------------------------------------------------------------------------
+sudo acpidump > acpidump.hex
+acpixtrace -a acpidum.hex
+iasl -d DSDT.dat
+-----------------------------------------------------------------------------------
+
+
+
+
+# reference
+https://wiki.ubuntu.com/Kernel/Reference/WMI
