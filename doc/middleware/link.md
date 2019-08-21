@@ -21,3 +21,9 @@ gst-launch-1.0 udpsrc port=3000 ! application/x-rtp,clock-rate=90000,payload=96,
 ## ALSA: Advanced Linux Sound Architecture.
 
 https://alsa-project.org/wiki/Main_Page
+
+
+
+## libpng: is the official PNG reference library.
+
+http://www.libpng.org/
