@@ -27,3 +27,8 @@ https://alsa-project.org/wiki/Main_Page
 ## libpng: is the official PNG reference library.
 
 http://www.libpng.org/
+
+
+## Gear Libraries: This is a collection of basic libraries.
+
+https://github.com/gozfree/gear-lib
