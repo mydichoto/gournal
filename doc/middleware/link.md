@@ -32,3 +32,8 @@ http://www.libpng.org/
 ## Gear Libraries: This is a collection of basic libraries.
 
 https://github.com/gozfree/gear-lib
+
+
+## OpenCV: Open Source Computer Vision Library
+
+https://github.com/opencv/opencv
