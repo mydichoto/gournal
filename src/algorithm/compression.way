@@ -1,3 +1,10 @@
-# Zstandard - Fast real-time compression algorithm http://www.zstd.net
+# Zstandard - Fast real-time compression algorithm
+  http://www.zstd.net
 
-# libqrencode - A fast and compact QR Code encoding library https://fukuchi.org/works/qrencode/
+# libqrencode - A fast and compact QR Code encoding library
+  https://fukuchi.org/works/qrencode/
+
+# zlib - A Massively Spiffy Yet Delicately Unobtrusive Compression Library
+  http://zlib.net/
+  https://github.com/madler/zlib
+  https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they/20765054#20765054
