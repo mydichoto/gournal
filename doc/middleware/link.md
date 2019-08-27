@@ -37,3 +37,12 @@ https://github.com/gozfree/gear-lib
 ## OpenCV: Open Source Computer Vision Library
 
 https://github.com/opencv/opencv
+
+
+## SDL: Simple DirectMedia Layer
+        Simple DirectMedia Layer is a cross-platform development library
+        designed to provide low level access to audio, keyboard, mouse,
+        joystick, and graphics hardware via OpenGL and Direct3D.
+
+https://libsdl.org/
+http://wiki.libsdl.org/APIByCategory
