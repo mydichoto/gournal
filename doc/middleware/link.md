@@ -1,3 +1,12 @@
+## GNOME
+## gtk: (GIMP Toolkit)
+
+https://gnome.pages.gitlab.gnome.org/gtk/gtk/
+https://gnome.pages.gitlab.gnome.org/gtk/gdk/
+
+## X server
+
+https://gitlab.freedesktop.org/xorg/xserver
 
 
 ## Glib: It provides data structure handling for C, portability wrappers,
